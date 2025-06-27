@@ -1,6 +1,6 @@
-MIT License
+# MIT License
 
-Copyright (c) 2025 Keith Oak
+Copyright (c) 2025 OAK AI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9,8 +9,23 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. This Software includes references to content from the following sources:
+
+   - The _Foundational Artificial Intelligence Risk Assessment (FAIRA) Framework_  
+     © The State of Queensland (Department of Transport and Main Roads) 2024  
+     Licensed under the Creative Commons Attribution 4.0 International licence  
+     <https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/qgea-policies-standards-and-guidelines/faira-framework>
+
+   - The _Microsoft AI Security Risk Assessment_  
+     © Microsoft Corporation  
+     Distributed publicly via <https://learn.microsoft.com> and <https://github.com/MicrosoftDocs/security>  
+     Licensed for public use under the terms outlined in its original repository:
+     <https://github.com/MicrosoftDocs/security/blob/main/LICENSE>
+
+2. Any use, reproduction, or distribution of this Software that incorporates or references these third-party works must also retain and comply with their original licence terms as noted above.
+
+3. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
