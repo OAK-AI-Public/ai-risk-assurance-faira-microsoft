@@ -7,6 +7,8 @@ A practical synthesis of the **Queensland Government FAIRA Framework (v1.0.0)** 
 Published by **[OAK AI](https://github.com/OAK-AI-Public)**  
 GitHub Repository: [OAK-AI-Public/ai-risk-assurance-faira-microsoft](https://github.com/OAK-AI-Public/ai-risk-assurance-faira-microsoft)
 
+**Latest Update**: Enhanced with NIST AI Security Competency Area integration, adding 46 AI-specific competencies (39 knowledge areas + 7 skills) for comprehensive AI security capability assessment.
+
 ---
 
 ## 📘 What’s Inside
@@ -17,6 +19,7 @@ This guide combines:
 - 🔐 [Microsoft AI Security Risk Assessment](https://learn.microsoft.com/en-us/security/ai-red-team/ai-risk-assessment) ([PDF](https://github.com/MicrosoftDocs/security/blob/main/Downloads/AI_Risk_Assessment_v4.1.4.pdf)) – practical lifecycle security controls for AI systems
 - ⚖️ Alignment with the [NFAAIG (2024)](https://www.dta.gov.au/help-and-advice/emerging-technologies/artificial-intelligence-ai/assurance-framework) and QLD legislation
 - ⚠️ Integration of **Workplace Health and Safety (WHS)** impacts under the _WHS Act 2011_
+- 🎯 **NEW**: Integration of [NIST AI Security Competency Area](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center) – 46 AI-specific competencies for security teams
 
 ---
 
@@ -50,6 +53,8 @@ This guide combines:
   [Licence: CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 - Microsoft AI Risk Assessment: © Microsoft Corporation  
   [GitHub Repo](https://github.com/MicrosoftDocs/security)
+- NIST AI Security Competency Area: National Institute of Standards and Technology  
+  Special thanks to [Ben Kereopa-Yorke](https://www.linkedin.com/in/benkereopayorke/) for highlighting the NIST AI Security Competency Area framework
 
 ---
 

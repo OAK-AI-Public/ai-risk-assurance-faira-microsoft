@@ -12,8 +12,9 @@ It consolidates:
 
 - Robust public sector governance and ethics expectations
 - Technical security controls across the AI pipeline
-- Alignment with national standards like the NFAAIG (2024)
+- Alignment with national standards like the NFAAIG (2024), NIST AI Security Competency Area, and ACSC AI Security Guidance
 - Workplace Health and Safety (WHS) duties under the _Work Health and Safety Act 2011 (Qld)_
+- AI-specific security competencies from NIST's 46 competency statements (39 knowledge + 7 skills)
 
 ---
 
@@ -26,6 +27,11 @@ Form a multi-disciplinary team with expertise in:
 - Legal, privacy, records, and ethics
 - Operational ownership (business leads)
 - Risk, security, and evaluation roles
+- AI security competencies including:
+  - Knowledge of AI model vulnerabilities (NIST AI-K005)
+  - Knowledge of data poisoning attacks (NIST AI-K013)
+  - Skill in identifying AI hallucinations (NIST AI-S006)
+  - Skill in secure prompt engineering (NIST AI-S002)
 
 Plan iterative workshops with phases for:
 
@@ -45,6 +51,12 @@ Base your system description on FAIRA Part A. Complete Tables 1–9 to map:
 - Use Microsoft’s lifecycle control checklist to add:
   - RBAC, model versioning, input sanitisation, data integrity validation
   - Known attack surfaces (e.g. API endpoints, sensor inputs, deployment vectors)
+  - NIST-identified AI-specific vulnerabilities:
+    - Model inversion and extraction attacks
+    - Membership inference vulnerabilities
+    - Data poisoning vectors (NIST AI-K013)
+    - Adversarial example generation points
+    - Misinformation/disinformation risks (NIST AI-K023)
 
 Add WHS considerations such as:
 
@@ -65,6 +77,8 @@ For each principle:
 
 1. Document intended benefits (e.g. fairness, transparency, safety)
 2. Identify risks (e.g. bias, privacy violation, harm to employment)
+   - Use NIST AI bias taxonomy (NIST AI-K003) to identify specific bias types
+   - Consider non-explainable risk factors (NIST AI-S007)
 3. Plan mitigations (e.g. explainability, training, opt-outs, contestability)
 
 Ensure:
@@ -162,3 +176,30 @@ Use this to ensure Queensland’s public-facing and internal AI systems are:
 - Well-governed across their lifecycle
 
 **Build AI that is safer, smarter, and fairer for Queensland.**
+
+---
+
+## Appendix: NIST AI Security Competencies Integration
+
+To strengthen AI security capabilities, teams should develop competencies aligned with NIST's AI Security Competency Area:
+
+### Essential Knowledge Areas
+
+- **AI Model Vulnerabilities (AI-K005)**: Understanding attack vectors specific to ML models
+- **Data Poisoning (AI-K013)**: Recognizing and preventing training data manipulation
+- **AI Bias Types (AI-K003)**: Comprehensive taxonomy of bias in AI systems
+- **Misinformation Risks (AI-K023)**: AI-generated content risks and detection
+- **NIST AI RMF (AI-K024)**: Framework for systematic AI risk management
+
+### Critical Skills
+
+- **Prompt Engineering Security (AI-S002)**: Secure interaction with generative AI
+- **Hallucination Detection (AI-S006)**: Identifying AI-generated errors
+- **Non-explainable Risk Assessment (AI-S007)**: Measuring opacity risks
+
+### Security Paradigms
+
+- **Security OF AI**: Protecting AI systems from adversarial attacks, data poisoning, model theft
+- **Security THROUGH AI**: Leveraging AI for threat detection, anomaly identification, automated response
+
+This competency framework ensures teams have the necessary skills to implement secure AI systems throughout their lifecycle.

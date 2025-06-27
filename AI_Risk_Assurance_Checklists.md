@@ -2,6 +2,22 @@
 
 ## Step 1: Team Formation and Planning Checklist
 
+### Team Competency Assessment (NIST AI Security)
+
+- [ ] Assess team knowledge areas:
+  - [ ] AI common security risks (AI-K007)
+  - [ ] NIST AI Risk Management Framework (AI-K024)
+  - [ ] AI model vulnerabilities (AI-K005)
+  - [ ] Data poisoning attacks (AI-K013)
+  - [ ] AI bias types (AI-K003)
+  - [ ] Misinformation/disinformation vulnerabilities (AI-K023)
+- [ ] Verify team skills:
+  - [ ] Secure prompt development (AI-S002)
+  - [ ] AI hallucination identification (AI-S006)
+  - [ ] Non-explainable risk measurement (AI-S007)
+- [ ] Plan training to address competency gaps
+- [ ] Document Security OF AI vs Security THROUGH AI responsibilities
+
 ### Team Assembly
 
 - [ ] Appoint executive sponsor/senior responsible officer
@@ -15,6 +31,12 @@
 - [ ] Add security specialist
 - [ ] Include evaluation/testing lead
 - [ ] Consider HR/WHS representative for workforce impacts
+- [ ] Verify team competencies (NIST AI Security):
+  - [ ] AI model vulnerabilities knowledge (AI-K005)
+  - [ ] Data poisoning understanding (AI-K013)
+  - [ ] AI bias types expertise (AI-K003)
+  - [ ] Prompt engineering security skills (AI-S002)
+  - [ ] Hallucination detection capability (AI-S006)
 
 ### Planning Activities
 
@@ -90,6 +112,12 @@
 - [ ] Map API endpoints and security requirements
 - [ ] Identify sensor inputs and validation needs
 - [ ] Document deployment vectors and security
+- [ ] Identify NIST AI-specific vulnerabilities:
+  - [ ] Model inversion attack surfaces
+  - [ ] Model extraction risks
+  - [ ] Membership inference points
+  - [ ] Data poisoning vectors
+  - [ ] Misinformation/disinformation risks
 
 ### WHS Considerations
 
@@ -129,6 +157,8 @@
 - [ ] Document discrimination risks
 - [ ] Plan fairness testing approach
 - [ ] Define fairness metrics
+- [ ] Apply NIST AI bias taxonomy (AI-K003)
+- [ ] Assess non-explainable risks (AI-S007)
 
 #### 4. Privacy Protection and Security
 
@@ -209,13 +239,15 @@
   - [ ] System availability
   - [ ] Integration failures
   - [ ] Scalability concerns
-- [ ] Security risks (using Microsoft's threat matrix):
+- [ ] Security risks (using Microsoft's threat matrix + NIST AI RMF):
   - [ ] Model inversion attacks
-  - [ ] Data poisoning
+  - [ ] Data poisoning (NIST AI-K013)
   - [ ] Adversarial inputs
-  - [ ] Model theft
-  - [ ] Privacy breaches
+  - [ ] Model theft/extraction
+  - [ ] Privacy breaches (membership inference)
   - [ ] Evasion attacks
+  - [ ] Hallucination risks (NIST AI-S006)
+  - [ ] Misinformation generation (NIST AI-K023)
 - [ ] Ethical risks:
   - [ ] Bias and discrimination
   - [ ] Privacy violations
@@ -278,6 +310,9 @@
   - [ ] Model hardening techniques
   - [ ] Version control system
   - [ ] Model signing/verification
+  - [ ] Prompt injection defenses (AI-S002)
+  - [ ] Hallucination detection mechanisms
+  - [ ] Output validation for misinformation
 - [ ] Monitoring:
   - [ ] Security event logging
   - [ ] Anomaly detection
