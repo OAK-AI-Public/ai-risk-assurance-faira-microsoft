@@ -203,3 +203,16 @@ To strengthen AI security capabilities, teams should develop competencies aligne
 - **Security THROUGH AI**: Leveraging AI for threat detection, anomaly identification, automated response
 
 This competency framework ensures teams have the necessary skills to implement secure AI systems throughout their lifecycle.
+
+---
+
+## Related Frameworks & Tools
+
+This unified framework integrates well with complementary assessment and benchmarking tools:
+
+- **[Australian Responsible AI Index 2025](./frameworks/naic-rai-index-2025.md)** (NAIC/Fifth Quadrant) - Use for organisational maturity benchmarking and peer comparison aligned with VAISS guardrails
+- **NIST AI Risk Management Framework** - Provides structured risk governance approach
+- **OECD AI Principles** - International best practice alignment
+- **EU AI Act** - Regulatory compliance considerations
+
+These frameworks can be used in combination to provide comprehensive AI governance coverage across technical security, organisational maturity, and regulatory alignment.

@@ -7,7 +7,7 @@ A practical synthesis of the **Queensland Government FAIRA Framework (v1.0.0)** 
 Published by **[OAK AI](https://github.com/OAK-AI-Public)**  
 GitHub Repository: [OAK-AI-Public/ai-risk-assurance-faira-microsoft](https://github.com/OAK-AI-Public/ai-risk-assurance-faira-microsoft)
 
-**Latest Update**: Enhanced with NIST AI Security Competency Area integration, adding 46 AI-specific competencies (39 knowledge areas + 7 skills) for comprehensive AI security capability assessment.
+**Latest Update**: Enhanced with NIST AI Security Competency Area integration, adding 46 AI-specific competencies (39 knowledge areas + 7 skills) for comprehensive AI security capability assessment. Now includes the Australian Responsible AI Index 2025 (NAIC/Fifth Quadrant) for maturity benchmarking aligned with VAISS.
 
 ---
 
@@ -19,7 +19,8 @@ This guide combines:
 - 🔐 [Microsoft AI Security Risk Assessment](https://learn.microsoft.com/en-us/security/ai-red-team/ai-risk-assessment) ([PDF](https://github.com/MicrosoftDocs/security/blob/main/Downloads/AI_Risk_Assessment_v4.1.4.pdf)) – practical lifecycle security controls for AI systems
 - ⚖️ Alignment with the [NFAAIG (2024)](https://www.dta.gov.au/help-and-advice/emerging-technologies/artificial-intelligence-ai/assurance-framework) and QLD legislation
 - ⚠️ Integration of **Workplace Health and Safety (WHS)** impacts under the _WHS Act 2011_
-- 🎯 **NEW**: Integration of [NIST AI Security Competency Area](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center) – 46 AI-specific competencies for security teams
+- 🎯 Integration of [NIST AI Security Competency Area](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center) – 46 AI-specific competencies for security teams
+- 🇦🇺 **NEW**: [Australian Responsible AI Index 2025](./frameworks/naic-rai-index-2025.md) (NAIC/Fifth Quadrant) – benchmarking tool aligned with VAISS for Responsible AI maturity assessment
 
 ---
 
@@ -40,6 +41,8 @@ This guide combines:
 | `AI_Risk_Assurance_Checklists.md`        | Practical checklists for implementing the framework step-by-step |
 | `FAIRA_Framework.md`                     | Queensland Government FAIRA Framework (extracted from DOCX)      |
 | `AI_Security_Risk_Assessment.md`         | Microsoft AI Security Risk Assessment (extracted from PDF)       |
+| `frameworks/naic-rai-index-2025.md`     | Australian Responsible AI Index 2025 (NAIC/Fifth Quadrant)       |
+| `mappings/naic-rai-index-2025.yaml`     | NAIC RAI Index taxonomy mappings and cross-framework alignment   |
 | `Figure_1.webp`                          | FAIRA Framework diagram - How FAIRA Works                        |
 | `Figure_2.webp`                          | FAIRA Framework diagram - Components of an AI solution           |
 | `LICENSE`                                | MIT License with third-party licence attribution                 |
@@ -55,6 +58,8 @@ This guide combines:
   [GitHub Repo](https://github.com/MicrosoftDocs/security)
 - NIST AI Security Competency Area: National Institute of Standards and Technology  
   Special thanks to [Ben Kereopa-Yorke](https://www.linkedin.com/in/benkereopayorke/) for highlighting the NIST AI Security Competency Area framework
+- Australian Responsible AI Index 2025: © Fifth Quadrant / National AI Centre  
+  [Framework Homepage](https://www.fifthquadrant.com.au/responsible-ai-index) | [NAIC News](https://www.industry.gov.au/news/benchmark-your-responsible-ai-maturity-level-new-self-assessment-tool)
 
 ---
 
