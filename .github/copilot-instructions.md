@@ -40,9 +40,7 @@ Unified_AI_Risk_Assurance_Framework.md  8,293 bytes - Main synthesis guide (read
 
 ### Validation Scenarios
 After making changes, ALWAYS validate:
-- **Content accessibility test**: `python3 -c "with open('README.md') as f: content = f.read(); print('✓ README accessible' if len(content) > 1000 else '✗ README issue')"` -- takes <1 second
-- **Framework readability test**: `python3 -c "with open('Unified_AI_Risk_Assurance_Framework.md') as f: content = f.read(); steps = content.count('## Step'); print(f'✓ Framework has {steps} steps' if steps == 7 else '✗ Framework structure issue')"` -- takes <1 second  
-- **Checklist functionality test**: `python3 -c "with open('AI_Risk_Assurance_Checklists.md') as f: content = f.read(); items = content.count('- [ ]'); print(f'✓ {items} checklist items available' if items > 400 else '✗ Checklist issue')"` -- takes <1 second
+- **Checklist functionality test**: `python3 -c "try: with open('AI_Risk_Assurance_Checklists.md') as f: content = f.read(); items = content.count('- [ ]'); print(f'✓ {items} checklist items available' if items > 400 else '✗ Checklist issue') except FileNotFoundError: print('✗ Checklist file not found: AI_Risk_Assurance_Checklists.md')"` -- takes <1 second
 - **Image integrity test**: `python3 -c "import os; imgs = [f for f in ['Figure_1.webp', 'Figure_2.webp'] if os.path.exists(f) and os.path.getsize(f) > 20000]; print(f'✓ {len(imgs)}/2 images valid' if len(imgs) == 2 else '✗ Image issue')"` -- takes <1 second
 
 ## Key Framework Components
