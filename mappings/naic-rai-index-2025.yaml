@@ -1,0 +1,157 @@
+# Australian Responsible AI Index 2025 - Taxonomy Mapping
+# Maps the five NAIC/Fifth Quadrant framework dimensions to common AI governance taxonomy
+
+framework:
+  name: "Australian Responsible AI Index 2025"
+  publisher: "Fifth Quadrant / National AI Centre"
+  version: "2025 Edition"
+  source: "https://www.fifthquadrant.com.au/responsible-ai-index"
+  
+# Framework dimensions mapped to common taxonomy
+mappings:
+  
+  # Dimension 1: Accountability & Oversight (13 practices)
+  - framework_dimension: "Accountability & Oversight"
+    practices_count: 13
+    description: "Governance structures, leadership accountability, and organisational responsibility for AI systems"
+    taxonomy_mapping:
+      primary: "Governance.Accountability"
+      related:
+        - "Governance.Leadership"
+        - "Governance.Responsibility"
+        - "Governance.Oversight"
+    vaiss_alignment:
+      - "Accountability & Governance"
+      - "Human Oversight"
+      
+  # Dimension 2: Safety & Resilience (11 practices)  
+  - framework_dimension: "Safety & Resilience"
+    practices_count: 11
+    description: "Risk management, system reliability, and protection against potential harms"
+    taxonomy_mapping:
+      primary: "Risk.Safety"
+      related:
+        - "Risk.Management"
+        - "Risk.Resilience"
+        - "Security.SystemSafety"
+    vaiss_alignment:
+      - "Risk Management"
+      - "Testing & Monitoring"
+      
+  # Dimension 3: Fairness (7 practices)
+  - framework_dimension: "Fairness"
+    practices_count: 7
+    description: "Bias prevention, equitable outcomes, and non-discrimination in AI applications"
+    taxonomy_mapping:
+      primary: "Ethics.Fairness"
+      related:
+        - "Ethics.Bias"
+        - "Ethics.Equity"
+        - "Ethics.NonDiscrimination"
+    vaiss_alignment:
+      - "Data Governance & Protection"
+      - "Testing & Monitoring"
+      
+  # Dimension 4: Transparency (8 practices)
+  - framework_dimension: "Transparency" 
+    practices_count: 8
+    description: "Clear communication, explainable processes, and stakeholder understanding"
+    taxonomy_mapping:
+      primary: "Governance.Transparency"
+      related:
+        - "Communication.Clarity"
+        - "Stakeholder.Engagement"
+        - "Information.Disclosure"
+    vaiss_alignment:
+      - "Transparency"
+      - "Stakeholder Engagement"
+      - "Supply Chain Transparency"
+      
+  # Dimension 5: Explainability & Contestability (6 practices)
+  - framework_dimension: "Explainability & Contestability"
+    practices_count: 6
+    description: "Ability to understand AI decisions and provide mechanisms for challenge and appeal"
+    taxonomy_mapping:
+      primary: 
+        - "Assurance.Explainability"
+        - "Governance.Contestability"
+      related:
+        - "Rights.Appeal"
+        - "Process.Challenge"
+        - "Understanding.Mechanisms"
+    vaiss_alignment:
+      - "Contestability"
+      - "Human Oversight"
+      - "Transparency"
+
+# Scoring methodology
+scoring:
+  scale: 0-100
+  weighting: "Equal weight per dimension"
+  calculation:
+    implemented: 2
+    planned: 1
+    neither: 0
+  total_practices: 45
+
+# Maturity levels  
+maturity_levels:
+  - level: "Emerging"
+    score_range: "0-24"
+    percentage_2025: "17%"
+    description: "Minimal implementation with limited oversight and leadership support"
+    
+  - level: "Developing" 
+    score_range: "25-49"
+    percentage_2025: "48%"
+    description: "Partial progress—introducing transparency, explainability and contestability initiatives"
+    
+  - level: "Implementing"
+    score_range: "50-69" 
+    percentage_2025: "23%"
+    description: "Broader implementation focusing on engagement, auditing, ethics and data security"
+    
+  - level: "Leading"
+    score_range: "70+"
+    percentage_2025: "12%"
+    description: "Extensive RAI adoption with leadership-driven accountability and strategy"
+
+# Cross-framework alignment
+cross_framework_alignment:
+  faira:
+    - "Part A: Components Analysis"
+    - "Part B: Values Assessment" 
+    - "Part C: Controls for AI Risks"
+  microsoft_ai_security:
+    - "Governance Controls"
+    - "Risk Assessment"
+    - "Monitoring & Evaluation"
+  nist_ai_rmf:
+    - "Govern"
+    - "Map"
+    - "Measure"
+    - "Manage"
+  vaiss_guardrails:
+    - "Accountability & Governance"
+    - "Risk Management"
+    - "Data Governance & Protection"
+    - "Testing & Monitoring"
+    - "Human Oversight"
+    - "Transparency"
+    - "Contestability"
+    - "Supply Chain Transparency"
+    - "Compliance"
+    - "Stakeholder Engagement"
+
+# Survey methodology
+survey_details:
+  year: 2025
+  sample_size: 418
+  target: "AI decision-makers in Australian organisations"
+  criteria: "Organisations with ≥20 employees"
+  findings:
+    mean_score: 43
+    change_from_2024: -1
+    experience_impact:
+      high_experience: "≥4 years AI experience: 54 points average"
+      low_experience: "<4 years AI experience: 42 points average"
