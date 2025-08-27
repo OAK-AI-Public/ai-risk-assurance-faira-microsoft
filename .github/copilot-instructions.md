@@ -26,7 +26,7 @@ Unified_AI_Risk_Assurance_Framework.md  8,293 bytes - Main synthesis guide (read
 ```
 
 ### Validation Commands
-- Validate all markdown files: `python3 -c "import markdown_it; md = markdown_it.MarkdownIt(); [print(f'✓ {f}') for f in ['README.md', 'Unified_AI_Risk_Assurance_Framework.md', 'AI_Risk_Assurance_Checklists.md', 'FAIRA_Framework.md', 'AI_Security_Risk_Assessment.md'] if md.parse(open(f).read())]"` -- takes <1 second
+- Validate all markdown files: `python3 -c "import sys; files=['README.md','Unified_AI_Risk_Assurance_Framework.md','AI_Risk_Assurance_Checklists.md','FAIRA_Framework.md','AI_Security_Risk_Assessment.md']; \
 - Verify images exist: `ls -la *.webp` -- should show both Figure_1.webp and Figure_2.webp
 - Check file integrity: `python3 -c "import os; [print(f'✓ {f}: {os.path.getsize(f)} bytes') for f in os.listdir('.') if f.endswith(('.md', '.webp'))]"`
 
